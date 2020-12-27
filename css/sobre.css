@@ -1,18 +1,22 @@
 body {
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin: 0 auto;
+    padding-top: 20px;
+
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #3d3d3d;
-    padding-top: 20px;
 }
 
 /* ||| TÍTULOS ||| */
 .titulo {
-    background-color: #E1EDF2;
-    font-size: 32px;
     padding: 10px;
+
+    font-size: 32px;
+
+    background-color: #E1EDF2;    
 }
 
 .subtitulo {
@@ -21,11 +25,15 @@ body {
 
 /* ||| IMAGENS ||| */
 figure {
-    text-align: center;
-    background-color: whitesmoke;
-    border: 1px solid lightgrey;
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 15px;
     margin: 30px;
+
+    text-align: center;
+
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;  
 }
 
 figcaption {
@@ -44,7 +52,7 @@ figcaption {
 }
 
 figure img {
-    width: inherit;
+    width: 100%;
 }
 
 /* ||| CONTATO ||| */
