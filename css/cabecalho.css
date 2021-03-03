@@ -25,6 +25,7 @@
 }
 .cabecalho__item-menu {
     display: inline-block;
+    transition: .25s;
 }
 .cabecalho__item-menu a {
     display: inline-block;
@@ -54,13 +55,22 @@
 }
 
 @media (min-width: 770px) {
+    .cabecalho__item-menu:hover {
+        color: #e93d50;
+        transition: .25s;
+    }
     .cabecalho__item-menu--matricular {
         margin-left: 1.42em;
 
         border-radius: 6px;
         background-color: #e93d50;
+        transition: .25s;
     }
-
+    .cabecalho__item-menu--matricular:hover {
+        color: #fff;
+        transform: translate(0, .22rem);
+        transition: .25s;
+    }
     .cabecalho__item-menu--matricular a {
         padding: 1.8em 3.5em;
     }
